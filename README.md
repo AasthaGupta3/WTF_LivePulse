@@ -37,6 +37,26 @@ Open:
 - Frontend: http://localhost:3000/dashboard
 - Backend health: http://localhost:3001/health
 
+## Screenshots
+
+### Dashboard
+![Dashboard](assets/screenshots/dashboard.png)
+
+### Gyms
+![Gyms](assets/screenshots/gyms.png)
+
+### Members
+![Members](assets/screenshots/members.png)
+
+### Live Check-ins
+![Live Check-ins](assets/screenshots/checkins.png)
+
+### Revenue
+![Revenue](assets/screenshots/revenue.png)
+
+### Anomalies
+![Anomalies](assets/screenshots/anomalies.png)
+
 ## Seed Demo Data
 
 In a new terminal:
@@ -88,4 +108,3 @@ cd "wtf-livepulse"
 docker compose run --rm backend npm install
 docker compose up --build
 ```
-
