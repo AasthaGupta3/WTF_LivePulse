@@ -1,0 +1,4 @@
+.center{display:flex;align-items:center;justify-content:center;padding:48px}
+.inline{display:inline-flex}
+@keyframes spin{to{transform:rotate(360deg)}}
+.spin{display:block;border:2px solid var(--border-2);border-top-color:var(--accent);border-radius:50%;animation:spin .7s linear infinite}

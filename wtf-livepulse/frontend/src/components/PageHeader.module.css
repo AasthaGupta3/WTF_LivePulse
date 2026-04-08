@@ -1,0 +1,4 @@
+.header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:28px}
+.title{font-size:24px;font-weight:800;color:var(--text-primary);letter-spacing:-.5px;line-height:1.1}
+.subtitle{margin-top:4px;font-size:13px;color:var(--text-secondary)}
+.actions{display:flex;gap:8px;flex-shrink:0}

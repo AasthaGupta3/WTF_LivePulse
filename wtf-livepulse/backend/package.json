@@ -1,0 +1,33 @@
+{
+  "name": "wtf-livepulse-backend",
+  "version": "1.0.0",
+  "description": "WTF LivePulse – real-time gym analytics backend",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "test": "jest --runInBand --forceExit",
+    "test:watch": "jest --watch",
+    "seed": "node src/db/seeds/seed.js",
+    "migrate": "psql $DATABASE_URL -f src/db/migrations/001_schema.sql"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "node-cron": "^3.0.3",
+    "pg": "^8.12.0",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.4",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": ["**/__tests__/**/*.js", "**/?(*.)+(spec|test).js"],
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": ["src/**/*.js", "!src/db/seeds/**"]
+  }
+}

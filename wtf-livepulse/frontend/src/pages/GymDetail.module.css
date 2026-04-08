@@ -1,0 +1,4 @@
+.kpiRow{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-bottom:24px}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.title{font-size:13px;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted);margin-bottom:16px}
+@media(max-width:900px){.kpiRow{grid-template-columns:repeat(2,1fr)}.charts{grid-template-columns:1fr}}

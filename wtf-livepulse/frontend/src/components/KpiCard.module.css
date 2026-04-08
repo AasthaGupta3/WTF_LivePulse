@@ -1,0 +1,11 @@
+.card{background:var(--bg-2);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px;display:flex;flex-direction:column;gap:8px;transition:border-color var(--transition)}
+.card:hover{border-color:var(--border-2)}
+.header{display:flex;align-items:center;justify-content:space-between}
+.label{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--text-muted)}
+.icon{font-size:18px;opacity:.7}
+.value{font-size:32px;font-weight:500;line-height:1;color:var(--text-primary)}
+.footer{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.sub{font-size:12px;color:var(--text-secondary)}
+.trend{font-family:var(--font-mono);font-size:11px;font-weight:500;padding:2px 6px;border-radius:4px}
+.trend.up{background:var(--green-dim);color:var(--green)}.trend.down{background:var(--red-dim);color:var(--red)}
+.green{border-left:3px solid var(--green)}.red{border-left:3px solid var(--red)}.blue{border-left:3px solid var(--blue)}.yellow{border-left:3px solid var(--yellow)}.purple{border-left:3px solid var(--purple)}
