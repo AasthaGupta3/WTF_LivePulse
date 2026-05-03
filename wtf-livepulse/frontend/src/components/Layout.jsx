@@ -17,8 +17,8 @@ export default function Layout() {
     <div className={s.shell}>
       <aside className={s.sidebar}>
         <div className={s.logo}>
-          <span className={s.logoMark}>AG</span>
-          <span className={s.logoSub}>Management</span>
+          <span className={s.logoMark}>FIT</span>
+          <span className={s.logoSub}>CORE</span>
         </div>
         <nav className={s.nav}>
           {NAV.map(({to,label,icon})=>(

@@ -68,7 +68,7 @@ if (process.env.NODE_ENV !== 'test') {
 
 if (require.main === module) {
   server.listen(PORT, () => {
-    console.log(`🏋️  Gym Management backend running on port ${PORT}`);
+    console.log(`🏋️  FitCore backend running on port ${PORT}`);
     console.log(`   ENV: ${process.env.NODE_ENV}`);
   });
 }

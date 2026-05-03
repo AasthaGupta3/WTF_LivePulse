@@ -1,4 +1,4 @@
-# Gym Management
+# FitCore
 
 Real-time gym analytics dashboard with:
 - Node.js + Express backend

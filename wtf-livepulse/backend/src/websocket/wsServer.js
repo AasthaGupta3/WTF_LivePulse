@@ -16,7 +16,7 @@ function initWebSocket(server) {
     });
     ws.on('pong', () => { ws.isAlive = true; });
     ws.on('error', (err) => console.error('[WS] Error:', err.message));
-    ws.send(JSON.stringify({ type: 'connected', message: 'Gym Management live feed' }));
+    ws.send(JSON.stringify({ type: 'connected', message: 'FitCore live feed' }));
   });
 
   const heartbeat = setInterval(() => {
