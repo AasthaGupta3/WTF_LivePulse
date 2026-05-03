@@ -1,7 +1,7 @@
 {
-  "name": "wtf-livepulse-backend",
+  "name": "aastha-livepulse-backend",
   "version": "1.0.0",
-  "description": "WTF LivePulse – real-time gym analytics backend",
+  "description": "Gym Management – real-time gym analytics backend",
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",

@@ -1,4 +1,4 @@
-# WTF LivePulse
+# Gym Management
 
 Real-time gym analytics dashboard with:
 - Node.js + Express backend

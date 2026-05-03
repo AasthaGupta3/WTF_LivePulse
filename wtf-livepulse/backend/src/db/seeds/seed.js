@@ -98,7 +98,7 @@ async function batchInsert(client, table, columns, rows, batchSize=500) {
 async function seed() {
   const client = await pool.connect();
   try {
-    console.log('🌱  Starting WTF LivePulse seed...');
+    console.log('🌱  Starting Gym Management seed...');
     await client.query('BEGIN');
     await client.query('TRUNCATE anomalies,payments,checkins,members,gyms RESTART IDENTITY CASCADE');
 
